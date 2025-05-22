@@ -12,7 +12,7 @@ app = Flask(__name__, static_folder='static')
 CORS(app)  # Enable CORS for all routes
 
 # Sensay API configuration
-SENSAY_API_KEY = "9b9aa68831e06aaa3bcc56059a1a8c81eeb73d9374e335c21c53e8aab166ca22"
+SENSAY_API_KEY = "Your sensay api key here"
 SENSAY_API_BASE_URL = "https://api.sensay.io/v1"
 
 # Serve static files (React frontend)
